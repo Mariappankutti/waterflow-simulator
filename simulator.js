@@ -1,6 +1,6 @@
 "use strict";
 /**This function for workflow range simulators*/
-import {simulator, createNode, startPoint} from './component/component.js';
+import {simulator, createNode, startPoint} from './component.js';
 let grid;
 (function(){
     /**Create workflow simulators */
