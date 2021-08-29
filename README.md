@@ -1,6 +1,3 @@
 # waterflow-simulator 
-water flow simulator.js with venila javascript
-
-You can run this project into your local, download or clone the project 
-
+Water flow simulator using venila javascript
 For Demo : https://mariappankutti.github.io/waterflow-simulator/
