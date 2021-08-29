@@ -1,0 +1,81 @@
+.hide{
+    display: none;
+}
+div.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+table {
+    border-collapse: collapse; 
+    margin-right: 30px;
+}
+tr{
+    border:1px solid black;
+}
+td{
+    height: 50px;
+    width: 50px;
+    border:1px solid black;
+    background: #d3d3d378;
+}
+td.cell.blocked{
+    background : black;
+}
+td.start-cell{
+    background: #6495edc9;
+}
+td.path{
+    background-color: lightgreen;
+}
+.block-container{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    margin-right: 20px;
+}
+.block{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    cursor: grab;
+    display: flex;
+}
+.blocks{
+    display: flex;
+}
+.white-backgroud{
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+input[type="range"]::before{
+    content: attr(min);
+    display: block;
+    margin-top: 30px;
+}
+input[type="range"]::after{
+    content: attr(max);
+    display: block;
+    margin-top: 30px;
+}
+section{
+    margin: 5rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+.btn{
+    border: none;
+    background: #80808061;
+    border-radius: 2px;
+    height: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
+}
+.button-row{
+    margin-top: 20px;
+}
