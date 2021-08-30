@@ -205,6 +205,12 @@ const startPointClick = function(){
     grid.r = 0;
     grid.c = this.cellIndex;
     document.querySelector('#start-point').classList.add('hide');
+    document.querySelector('#start-point').classList.add('hide');
+    const listOfTr = document.querySelectorAll('td.start-cell');
+    for(let i=0;i<listOfTr.length; i++){
+        listOfTr[i].classList.remove('start-cell');
+        listOfTr[i].classList.add("white-backgroud");
+    }
     grid.findpath();
     
 }
