@@ -23,11 +23,11 @@ const simulator =()=>{
     </section>`;
 }
 
-const inputElement = (title,id,value)=>{
+const inputElement = (title,id,initial)=>{
     return`<div>
     <div class="input-label">
     <label for="${id}">${title}</label></div>
-    <input type="range" id="${id}" min="1" max="10" value="${value}"> 
+    <input type="range" id="${id}" min="1" max="10" value="${initial}"> 
     </div>`;
 }
 
