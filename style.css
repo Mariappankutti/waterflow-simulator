@@ -51,6 +51,11 @@ td.path{
     border-right: 1px solid white;
     background:white;
 }
+.top-white-backgroud{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 
 input[type="range"]::before{
     content: attr(min);
