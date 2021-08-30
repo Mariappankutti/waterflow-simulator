@@ -3,9 +3,9 @@ const simulator =()=>{
     return `<section class="main-sec " id="firstpage">
     <header><h1>Water flow Simulator</h1></header>
     <h3>Grid Creation</h3>
-    ${inputElement("Number of rows","rows")}
-    ${inputElement("Number of columns","columns")}
-    ${inputElement("Number of Obstruction","obs")}
+    ${inputElement("Number of rows","rows",5)}
+    ${inputElement("Number of columns","columns",5)}
+    ${inputElement("Number of Obstruction","obs",3)}
     <button type="submit" id="tonext" class="btn">Next</button>
     </section>
     <section id="simulator" class="hide" aria-label="Waterflow simulator Table">
@@ -23,11 +23,11 @@ const simulator =()=>{
     </section>`;
 }
 
-const inputElement = (title,id)=>{
+const inputElement = (title,id,value)=>{
     return`<div>
     <div class="input-label">
     <label for="${id}">${title}</label></div>
-    <input type="range" id="${id}" min="1" max="10" value="3"> 
+    <input type="range" id="${id}" min="1" max="10" value="${value}"> 
     </div>`;
 }
 
