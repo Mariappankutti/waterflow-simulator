@@ -209,7 +209,7 @@ const startPointClick = function(){
     const listOfTr = document.querySelectorAll('td.start-cell');
     for(let i=0;i<listOfTr.length; i++){
         listOfTr[i].classList.remove('start-cell');
-        listOfTr[i].classList.add("white-backgroud");
+        listOfTr[i].classList.add("top-white-backgroud");
     }
     grid.findpath();
     
